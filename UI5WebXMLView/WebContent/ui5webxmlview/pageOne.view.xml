@@ -1,0 +1,36 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:tnt = "sap.tnt"
+		controllerName="ui5webxmlview.pageOne" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="UI5 XML View">
+		<content>
+		<tnt:ToolHeader>
+		
+		<Button icon ="sap-icon://menu2" type ="transparent"/>
+		<ToolbarSpacer/>
+		<Text text = "Login Page"/>
+		<ToolbarSpacer/>
+		<Button text = "Welcome, h All" type ="transparent"/>	
+			
+		</tnt:ToolHeader>
+		
+		<VBox  fitContainer = "true" justifyContent = "Center" alignItems = "Center" alignContent = "Center">
+		<items>
+		<Label text = "Use your credentials"/>
+		<Input placeholder = "user name"/>
+		<Input placeholder = "password" type ="password"/> 
+		<Button width = "12rem" text = "Login" type = "Emphasized"></Button>
+		</items>
+		</VBox>
+		</content>
+		
+		<footer>
+		<Bar>
+		<contentLeft>
+		<Text text= "Hello,Ash" />
+		</contentLeft>
+		<contentRight>
+		<Text text = "Hello,Kate"/>
+		</contentRight>
+		</Bar>
+		</footer>		
+	</Page>
+</core:View>
